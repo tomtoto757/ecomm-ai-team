@@ -1,0 +1,62 @@
+{
+  "generated_on": "2026-03-21",
+  "repository": "tomtoto757/awesome-ecomm-skills",
+  "sources": [
+    {
+      "name": "finsilabs/awesome-ecommerce-skills",
+      "type": "github",
+      "url": "https://github.com/finsilabs/awesome-ecommerce-skills",
+      "status": "imported",
+      "license_file": "licenses/finsilabs-MIT.txt",
+      "import_root": "skills/finsilabs",
+      "skill_count": 178,
+      "notes": "Imported the full ecommerce skill library."
+    },
+    {
+      "name": "openclaw/skills",
+      "type": "github",
+      "url": "https://github.com/openclaw/skills/tree/main",
+      "status": "partially_imported",
+      "license_file": "licenses/openclaw-MIT.txt",
+      "import_root": "skills/openclaw",
+      "skill_count": 5,
+      "selected_skills": [
+        "52yuanchangxing/ecommerce-customer-service-pro",
+        "52yuanchangxing/ecommerce-return-intelligence",
+        "a5huynh/universal-checkout",
+        "dejimarquis/groupon-skill",
+        "denicmic-chung/amazon-product-scraper"
+      ],
+      "quarantine_root": "quarantine/openclaw",
+      "quarantined_skills": [
+        {
+          "path": "abhishekj9621/ecom-manager-d2c",
+          "reason": "Overly broad autonomous authority over financially impactful ecommerce operations."
+        },
+        {
+          "path": "abuiles/shopify-directory",
+          "reason": "Trusts mutable remote third-party skill files as the source of truth."
+        },
+        {
+          "path": "asenwang/shopify-manager-cli",
+          "reason": "Provides destructive live Shopify mutations without runtime confirmation guards."
+        }
+      ],
+      "notes": "Filtered for direct ecommerce relevance; three imported skills were later quarantined after security review."
+    },
+    {
+      "name": "awesome-ecommerce-skills.com/library",
+      "type": "website",
+      "url": "https://awesome-ecommerce-skills.com/library",
+      "status": "researched",
+      "notes": "Confirmed as a web catalog for the same finsilabs library, so no separate import was created."
+    },
+    {
+      "name": "Reddit ClaudeAI thread",
+      "type": "reddit",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rp52eq/these_are_the_claude_skills_we_use_everyday_to/",
+      "status": "researched",
+      "notes": "The post listed skill names but did not expose downloadable files or canonical source repos for reliable import."
+    }
+  ]
+}
