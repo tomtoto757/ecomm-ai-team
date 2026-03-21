@@ -19,18 +19,30 @@
       "status": "partially_imported",
       "license_file": "licenses/openclaw-MIT.txt",
       "import_root": "skills/openclaw",
-      "skill_count": 8,
+      "skill_count": 5,
       "selected_skills": [
         "52yuanchangxing/ecommerce-customer-service-pro",
         "52yuanchangxing/ecommerce-return-intelligence",
         "a5huynh/universal-checkout",
-        "abhishekj9621/ecom-manager-d2c",
-        "abuiles/shopify-directory",
-        "asenwang/shopify-manager-cli",
         "dejimarquis/groupon-skill",
         "denicmic-chung/amazon-product-scraper"
       ],
-      "notes": "Filtered for direct ecommerce, Shopify, checkout, ordering, and marketplace-adjacent relevance."
+      "quarantine_root": "quarantine/openclaw",
+      "quarantined_skills": [
+        {
+          "path": "abhishekj9621/ecom-manager-d2c",
+          "reason": "Overly broad autonomous authority over financially impactful ecommerce operations."
+        },
+        {
+          "path": "abuiles/shopify-directory",
+          "reason": "Trusts mutable remote third-party skill files as the source of truth."
+        },
+        {
+          "path": "asenwang/shopify-manager-cli",
+          "reason": "Provides destructive live Shopify mutations without runtime confirmation guards."
+        }
+      ],
+      "notes": "Filtered for direct ecommerce relevance; three imported skills were later quarantined after security review."
     },
     {
       "name": "awesome-ecommerce-skills.com/library",

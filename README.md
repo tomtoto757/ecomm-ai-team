@@ -5,7 +5,8 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 ## What Is In This Repo
 
 - `skills/finsilabs/` contains the full `finsilabs/awesome-ecommerce-skills` library.
-- `skills/openclaw/` contains the ecommerce-relevant skill folders I pulled from `openclaw/skills`.
+- `skills/openclaw/` contains the active ecommerce-relevant skill folders I pulled from `openclaw/skills`.
+- `quarantine/` contains imported skills that were removed from the active set after security review.
 - `licenses/` keeps the upstream MIT licenses with the imported content.
 - `upstream/` keeps useful upstream docs copied from the main ecommerce source.
 - `docs/source-notes.md` explains what was imported from each link you shared.
@@ -27,12 +28,22 @@ Curated ecommerce skill files collected into one repository for easier browsing,
   - `52yuanchangxing/ecommerce-customer-service-pro`
   - `52yuanchangxing/ecommerce-return-intelligence`
   - `a5huynh/universal-checkout`
-  - `abhishekj9621/ecom-manager-d2c`
-  - `abuiles/shopify-directory`
-  - `asenwang/shopify-manager-cli`
   - `dejimarquis/groupon-skill`
   - `denicmic-chung/amazon-product-scraper`
 - Why: these were the clearly ecommerce, Shopify, checkout, ordering, deal-finding, or marketplace-adjacent skills with concrete reusable files
+
+### Quarantined After Security Review
+
+- Quarantined: 3 `openclaw` skill folders
+- Location: `quarantine/openclaw/`
+- Quarantined:
+  - `abhishekj9621/ecom-manager-d2c`
+  - `abuiles/shopify-directory`
+  - `asenwang/shopify-manager-cli`
+- Why:
+  - `shopify-directory` delegated trust to mutable third-party remote `skill.md` files
+  - `shopify-manager-cli` exposed live destructive store mutations with no runtime confirmation guard
+  - `ecom-manager-d2c` granted overly broad autonomous control over financially impactful operations
 
 ## Research Notes
 
@@ -64,11 +75,13 @@ skills/
   openclaw/
     52yuanchangxing/
     a5huynh/
-    abhishekj9621/
-    abuiles/
-    asenwang/
     dejimarquis/
     denicmic-chung/
+quarantine/
+  openclaw/
+    ecom-manager-d2c/
+    shopify-directory/
+    shopify-manager-cli/
 ```
 
 ## Attribution

@@ -15,19 +15,28 @@
 ### `https://github.com/openclaw/skills/tree/main`
 
 - Status: partially imported after filtering for direct ecommerce relevance
-- Result: copied 8 skill folders into `skills/openclaw/`
+- Result: 5 active skill folders remain in `skills/openclaw/`; 3 imported skill folders were later quarantined
 - Selection rule: only folders with clearly ecommerce, Shopify, checkout, deal, or product-ordering relevance and usable source files
 
-Imported folders:
+Active folders:
 
 - `52yuanchangxing/ecommerce-customer-service-pro`
 - `52yuanchangxing/ecommerce-return-intelligence`
 - `a5huynh/universal-checkout`
+- `dejimarquis/groupon-skill`
+- `denicmic-chung/amazon-product-scraper`
+
+Quarantined after security review:
+
 - `abhishekj9621/ecom-manager-d2c`
 - `abuiles/shopify-directory`
 - `asenwang/shopify-manager-cli`
-- `dejimarquis/groupon-skill`
-- `denicmic-chung/amazon-product-scraper`
+
+Reasons:
+
+- `shopify-directory` relied on mutable third-party remote `skill.md` instructions
+- `shopify-manager-cli` exposed live destructive Shopify mutations without runtime confirmation flags
+- `ecom-manager-d2c` was too broadly autonomous for pricing, ad spend, and operational changes
 
 ## Researched But Not Added As Separate Imports
 
