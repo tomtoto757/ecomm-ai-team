@@ -6,7 +6,6 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 
 - `skills/finsilabs/` contains the full `finsilabs/awesome-ecommerce-skills` library.
 - `skills/openclaw/` contains the active ecommerce-relevant skill folders I pulled from `openclaw/skills`.
-- `quarantine/` contains imported skills that were removed from the active set after security review.
 - `licenses/` keeps the upstream MIT licenses with the imported content.
 - `upstream/` keeps useful upstream docs copied from the main ecommerce source.
 - `docs/source-notes.md` explains what was imported from each link you shared.
@@ -32,11 +31,10 @@ Curated ecommerce skill files collected into one repository for easier browsing,
   - `denicmic-chung/amazon-product-scraper`
 - Why: these were the clearly ecommerce, Shopify, checkout, ordering, deal-finding, or marketplace-adjacent skills with concrete reusable files
 
-### Quarantined After Security Review
+### Removed After Security Review
 
-- Quarantined: 3 `openclaw` skill folders
-- Location: `quarantine/openclaw/`
-- Quarantined:
+- Removed: 3 `openclaw` skill folders
+- Removed:
   - `abhishekj9621/ecom-manager-d2c`
   - `abuiles/shopify-directory`
   - `asenwang/shopify-manager-cli`
@@ -77,11 +75,6 @@ skills/
     a5huynh/
     dejimarquis/
     denicmic-chung/
-quarantine/
-  openclaw/
-    ecom-manager-d2c/
-    shopify-directory/
-    shopify-manager-cli/
 ```
 
 ## Attribution

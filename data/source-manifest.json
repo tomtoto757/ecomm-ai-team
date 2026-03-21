@@ -27,8 +27,7 @@
         "dejimarquis/groupon-skill",
         "denicmic-chung/amazon-product-scraper"
       ],
-      "quarantine_root": "quarantine/openclaw",
-      "quarantined_skills": [
+      "removed_skills": [
         {
           "path": "abhishekj9621/ecom-manager-d2c",
           "reason": "Overly broad autonomous authority over financially impactful ecommerce operations."
@@ -42,7 +41,7 @@
           "reason": "Provides destructive live Shopify mutations without runtime confirmation guards."
         }
       ],
-      "notes": "Filtered for direct ecommerce relevance; three imported skills were later quarantined after security review."
+      "notes": "Filtered for direct ecommerce relevance; three imported skills were later removed after security review."
     },
     {
       "name": "awesome-ecommerce-skills.com/library",

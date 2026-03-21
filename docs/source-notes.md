@@ -15,7 +15,7 @@
 ### `https://github.com/openclaw/skills/tree/main`
 
 - Status: partially imported after filtering for direct ecommerce relevance
-- Result: 5 active skill folders remain in `skills/openclaw/`; 3 imported skill folders were later quarantined
+- Result: 5 active skill folders remain in `skills/openclaw/`; 3 imported skill folders were later removed after security review
 - Selection rule: only folders with clearly ecommerce, Shopify, checkout, deal, or product-ordering relevance and usable source files
 
 Active folders:
@@ -26,7 +26,7 @@ Active folders:
 - `dejimarquis/groupon-skill`
 - `denicmic-chung/amazon-product-scraper`
 
-Quarantined after security review:
+Removed after security review:
 
 - `abhishekj9621/ecom-manager-d2c`
 - `abuiles/shopify-directory`
