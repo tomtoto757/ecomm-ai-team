@@ -1,2 +1,20 @@
-# ecommerce-ai-workflows
-A collection of AI skills, agents, and workflows for E-commerce, including product research, listing optimization, marketing, customer support, and operations automation.
+# E-commerce AI Skills & Agents
+
+A curated collection of AI skills, agents, and automation workflows for e-commerce businesses.
+
+This repository collects useful AI automation building blocks for:
+- Product research
+- Competitor analysis
+- SEO content generation
+- Email automation
+- Customer support automation
+- Marketing automation
+- Social media content
+- Data analysis
+- Web scraping
+- Shopify / Amazon automation
+- AI workflows and agents
+
+
+
+
