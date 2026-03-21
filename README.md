@@ -43,11 +43,6 @@ Curated ecommerce skill files collected into one repository for easier browsing,
   - `shopify-manager-cli` exposed live destructive store mutations with no runtime confirmation guard
   - `ecom-manager-d2c` granted overly broad autonomous control over financially impactful operations
 
-## Research Notes
-
-- `https://awesome-ecommerce-skills.com/library` appears to be the web catalog for the same `finsilabs/awesome-ecommerce-skills` library, not a separate raw-file source.
-- The Reddit thread named useful skills, but it did not publish downloadable skill files in the post itself, so there was nothing reliable to import directly from that link.
-
 ## Structure
 
 ```text
