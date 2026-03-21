@@ -4,31 +4,44 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 
 ## What Is In This Repo
 
-- `skills/finsilabs/` contains the full `finsilabs/awesome-ecommerce-skills` library.
-- `skills/openclaw/` contains the active ecommerce-relevant skill folders I pulled from `openclaw/skills`.
+- `skills/` is organized by ecommerce category first, then by source namespace.
+- `skills/<category>/finsilabs/` contains the imported `finsilabs/awesome-ecommerce-skills` skills mapped into that category.
+- `skills/<category>/openclaw/` contains the active ecommerce-relevant `openclaw/skills` imports mapped into that category.
 - `licenses/` keeps the upstream MIT licenses with the imported content.
 - `upstream/` keeps useful upstream docs copied from the main ecommerce source.
 - `docs/source-notes.md` explains what was imported from each link you shared.
 - `data/source-manifest.json` provides a machine-readable inventory of sources and imported subsets.
+
+## Categories
+
+- `storefront-shopping-experience`
+- `catalog-inventory`
+- `pricing-promotions-loyalty`
+- `checkout-payments-tax`
+- `orders-shipping-returns`
+- `customer-support-crm`
+- `marketing-growth`
+- `analytics-reporting`
+- `platform-integrations-infrastructure`
 
 ## Imported Sources
 
 ### `finsilabs/awesome-ecommerce-skills`
 
 - Imported: 178 skill folders
-- Location: `skills/finsilabs/`
+- Location: distributed under `skills/<category>/finsilabs/`
 - Why: this is the strongest dedicated ecommerce skill library in your source list
 
 ### `openclaw/skills`
 
-- Imported: 8 ecommerce-relevant skill folders
-- Location: `skills/openclaw/`
+- Imported: 5 ecommerce-relevant skill folders
+- Location: distributed under `skills/<category>/openclaw/`
 - Included:
-  - `52yuanchangxing/ecommerce-customer-service-pro`
-  - `52yuanchangxing/ecommerce-return-intelligence`
-  - `a5huynh/universal-checkout`
-  - `dejimarquis/groupon-skill`
-  - `denicmic-chung/amazon-product-scraper`
+  - `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
+  - `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
+  - `checkout-payments-tax/openclaw/a5huynh/universal-checkout`
+  - `storefront-shopping-experience/openclaw/dejimarquis/groupon-skill`
+  - `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
 - Why: these were the clearly ecommerce, Shopify, checkout, ordering, deal-finding, or marketplace-adjacent skills with concrete reusable files
 
 ### Removed After Security Review
@@ -47,30 +60,32 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 
 ```text
 skills/
-  finsilabs/
-    business-operations/
-    catalog-inventory/
-    customer-crm/
-    data-analytics/
-    fulfillment-shipping/
-    headless-modern/
-    infrastructure-performance/
-    integrations-apis/
-    marketing-growth/
-    payments-checkout/
-    platform-magento/
-    platform-salesforce-cc/
-    platform-shopify/
-    platform-woocommerce/
-    pricing-promotions/
-    security-compliance/
-    storefront-ui/
-  openclaw/
-    52yuanchangxing/
-    a5huynh/
-    dejimarquis/
-    denicmic-chung/
+  analytics-reporting/
+    finsilabs/
+  catalog-inventory/
+    finsilabs/
+    openclaw/
+  checkout-payments-tax/
+    finsilabs/
+    openclaw/
+  customer-support-crm/
+    finsilabs/
+    openclaw/
+  marketing-growth/
+    finsilabs/
+  orders-shipping-returns/
+    finsilabs/
+    openclaw/
+  platform-integrations-infrastructure/
+    finsilabs/
+  pricing-promotions-loyalty/
+    finsilabs/
+  storefront-shopping-experience/
+    finsilabs/
+    openclaw/
 ```
+
+Source attribution is preserved in the path. For example, a Shopify skill now lives under a category path such as `skills/platform-integrations-infrastructure/finsilabs/platform-shopify/...`.
 
 ## Attribution
 

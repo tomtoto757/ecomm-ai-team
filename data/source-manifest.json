@@ -1,6 +1,21 @@
 {
   "generated_on": "2026-03-21",
   "repository": "tomtoto757/awesome-ecomm-skills",
+  "organization": {
+    "scheme": "category_first",
+    "source_namespace_preserved": true,
+    "categories": [
+      "storefront-shopping-experience",
+      "catalog-inventory",
+      "pricing-promotions-loyalty",
+      "checkout-payments-tax",
+      "orders-shipping-returns",
+      "customer-support-crm",
+      "marketing-growth",
+      "analytics-reporting",
+      "platform-integrations-infrastructure"
+    ]
+  },
   "sources": [
     {
       "name": "finsilabs/awesome-ecommerce-skills",
@@ -8,9 +23,9 @@
       "url": "https://github.com/finsilabs/awesome-ecommerce-skills",
       "status": "imported",
       "license_file": "licenses/finsilabs-MIT.txt",
-      "import_root": "skills/finsilabs",
+      "import_root": "skills",
       "skill_count": 178,
-      "notes": "Imported the full ecommerce skill library."
+      "notes": "Imported the full ecommerce skill library and reorganized it into category-first paths under skills/<category>/finsilabs/."
     },
     {
       "name": "openclaw/skills",
@@ -18,14 +33,14 @@
       "url": "https://github.com/openclaw/skills/tree/main",
       "status": "partially_imported",
       "license_file": "licenses/openclaw-MIT.txt",
-      "import_root": "skills/openclaw",
+      "import_root": "skills",
       "skill_count": 5,
       "selected_skills": [
-        "52yuanchangxing/ecommerce-customer-service-pro",
-        "52yuanchangxing/ecommerce-return-intelligence",
-        "a5huynh/universal-checkout",
-        "dejimarquis/groupon-skill",
-        "denicmic-chung/amazon-product-scraper"
+        "customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro",
+        "orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence",
+        "checkout-payments-tax/openclaw/a5huynh/universal-checkout",
+        "storefront-shopping-experience/openclaw/dejimarquis/groupon-skill",
+        "catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper"
       ],
       "removed_skills": [
         {
@@ -41,7 +56,7 @@
           "reason": "Provides destructive live Shopify mutations without runtime confirmation guards."
         }
       ],
-      "notes": "Filtered for direct ecommerce relevance; three imported skills were later removed after security review."
+      "notes": "Filtered for direct ecommerce relevance, then reorganized into category-first paths; three imported skills were later removed after security review."
     },
     {
       "name": "awesome-ecommerce-skills.com/library",
