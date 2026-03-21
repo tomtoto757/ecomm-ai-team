@@ -1,0 +1,11 @@
+{
+  "owner": "denicmic-chung",
+  "slug": "amazon-product-scraper",
+  "displayName": "Amazon Product Scraper",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1772339413661,
+    "commit": "https://github.com/openclaw/skills/commit/83b05adf627b4e9654a7d2ba8925e961ad61a2be"
+  },
+  "history": []
+}
