@@ -2,10 +2,12 @@
 
 ## Imported
 
+The repository now uses a category-first layout under `skills/<category>/...` while preserving source namespaces underneath each category path.
+
 ### `https://github.com/finsilabs/awesome-ecommerce-skills`
 
 - Status: imported
-- Result: copied the full `skills/` tree into `skills/finsilabs/`
+- Result: copied the full `skills/` tree, then reorganized it into category paths under `skills/<category>/finsilabs/`
 - Count: 178 `SKILL.md` files
 - Extras copied:
   - `upstream/finsilabs-README.md`
@@ -15,16 +17,16 @@
 ### `https://github.com/openclaw/skills/tree/main`
 
 - Status: partially imported after filtering for direct ecommerce relevance
-- Result: 5 active skill folders remain in `skills/openclaw/`; 3 imported skill folders were later removed after security review
+- Result: 5 active skill folders remain, reorganized under `skills/<category>/openclaw/`; 3 imported skill folders were later removed after security review
 - Selection rule: only folders with clearly ecommerce, Shopify, checkout, deal, or product-ordering relevance and usable source files
 
 Active folders:
 
-- `52yuanchangxing/ecommerce-customer-service-pro`
-- `52yuanchangxing/ecommerce-return-intelligence`
-- `a5huynh/universal-checkout`
-- `dejimarquis/groupon-skill`
-- `denicmic-chung/amazon-product-scraper`
+- `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
+- `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
+- `checkout-payments-tax/openclaw/a5huynh/universal-checkout`
+- `storefront-shopping-experience/openclaw/dejimarquis/groupon-skill`
+- `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
 
 Removed after security review:
 
