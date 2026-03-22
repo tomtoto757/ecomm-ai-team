@@ -17,16 +17,13 @@ The repository now uses a category-first layout under `skills/<category>/...` wh
 ### `https://github.com/openclaw/skills/tree/main`
 
 - Status: partially imported after filtering for direct ecommerce relevance
-- Result: 5 active skill folders remain, reorganized under `skills/<category>/openclaw/`; 3 imported skill folders were later removed after security review
+- Result: 2 active skill folders remain, reorganized under `skills/<category>/openclaw/`; 3 imported skill folders were later removed after security review and 3 additional folders were removed after language review
 - Selection rule: only folders with clearly ecommerce, Shopify, checkout, deal, or product-ordering relevance and usable source files
 
 Active folders:
 
-- `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
-- `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
 - `checkout-payments-tax/openclaw/a5huynh/universal-checkout`
 - `storefront-shopping-experience/openclaw/dejimarquis/groupon-skill`
-- `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
 
 Removed after security review:
 
@@ -39,6 +36,16 @@ Reasons:
 - `shopify-directory` relied on mutable third-party remote `skill.md` instructions
 - `shopify-manager-cli` exposed live destructive Shopify mutations without runtime confirmation flags
 - `ecom-manager-d2c` was too broadly autonomous for pricing, ad spend, and operational changes
+
+Removed after language review:
+
+- `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
+- `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
+- `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
+
+Reason:
+
+- these skill definitions and supporting documentation were primarily written in Chinese
 
 ## Researched But Not Added As Separate Imports
 

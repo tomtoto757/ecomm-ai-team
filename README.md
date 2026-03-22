@@ -34,14 +34,11 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 
 ### `openclaw/skills`
 
-- Imported: 5 ecommerce-relevant skill folders
+- Imported: 2 ecommerce-relevant skill folders
 - Location: distributed under `skills/<category>/openclaw/`
 - Included:
-  - `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
-  - `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
   - `checkout-payments-tax/openclaw/a5huynh/universal-checkout`
   - `storefront-shopping-experience/openclaw/dejimarquis/groupon-skill`
-  - `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
 - Why: these were the clearly ecommerce, Shopify, checkout, ordering, deal-finding, or marketplace-adjacent skills with concrete reusable files
 
 ### Removed After Security Review
@@ -55,6 +52,16 @@ Curated ecommerce skill files collected into one repository for easier browsing,
   - `shopify-directory` delegated trust to mutable third-party remote `skill.md` files
   - `shopify-manager-cli` exposed live destructive store mutations with no runtime confirmation guard
   - `ecom-manager-d2c` granted overly broad autonomous control over financially impactful operations
+
+### Removed After Language Review
+
+- Removed: 3 Chinese-language skill folders
+- Removed:
+  - `customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro`
+  - `orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence`
+  - `catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper`
+- Why:
+  - these skill definitions and supporting docs were primarily written in Chinese
 
 ## Structure
 

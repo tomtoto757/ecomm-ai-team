@@ -34,13 +34,10 @@
       "status": "partially_imported",
       "license_file": "licenses/openclaw-MIT.txt",
       "import_root": "skills",
-      "skill_count": 5,
+      "skill_count": 2,
       "selected_skills": [
-        "customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro",
-        "orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence",
         "checkout-payments-tax/openclaw/a5huynh/universal-checkout",
-        "storefront-shopping-experience/openclaw/dejimarquis/groupon-skill",
-        "catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper"
+        "storefront-shopping-experience/openclaw/dejimarquis/groupon-skill"
       ],
       "removed_skills": [
         {
@@ -54,9 +51,21 @@
         {
           "path": "asenwang/shopify-manager-cli",
           "reason": "Provides destructive live Shopify mutations without runtime confirmation guards."
+        },
+        {
+          "path": "customer-support-crm/openclaw/52yuanchangxing/ecommerce-customer-service-pro",
+          "reason": "Removed because the skill definition and supporting content are primarily written in Chinese."
+        },
+        {
+          "path": "orders-shipping-returns/openclaw/52yuanchangxing/ecommerce-return-intelligence",
+          "reason": "Removed because the skill definition and supporting content are primarily written in Chinese."
+        },
+        {
+          "path": "catalog-inventory/openclaw/denicmic-chung/amazon-product-scraper",
+          "reason": "Removed because the skill definition is primarily written in Chinese."
         }
       ],
-      "notes": "Filtered for direct ecommerce relevance, then reorganized into category-first paths; three imported skills were later removed after security review."
+      "notes": "Filtered for direct ecommerce relevance, then reorganized into category-first paths; three imported skills were later removed after security review and three additional skills were removed because their definitions were primarily written in Chinese."
     },
     {
       "name": "awesome-ecommerce-skills.com/library",

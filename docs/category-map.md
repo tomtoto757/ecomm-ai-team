@@ -47,8 +47,5 @@ This repository is organized by business-facing ecommerce categories first, with
 
 ## OpenClaw Skill Placements
 
-- `ecommerce-customer-service-pro` -> `customer-support-crm`
-- `ecommerce-return-intelligence` -> `orders-shipping-returns`
 - `universal-checkout` -> `checkout-payments-tax`
 - `groupon-skill` -> `storefront-shopping-experience`
-- `amazon-product-scraper` -> `catalog-inventory`
