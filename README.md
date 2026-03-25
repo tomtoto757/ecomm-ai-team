@@ -2,6 +2,23 @@
 
 Curated ecommerce skill files collected into one repository for easier browsing, reuse, and future curation.
 
+<div align="center">
+	<h3>🐳 Community</h3>
+  <div>
+      <p>
+      This repo is part of a small community of people exploring 
+      AI + ecommerce automation, workflows, and tools.
+      </p>
+      <p>
+      If you're working on similar things or just interested in this space,
+      feel free to join the discussion.
+      </p>
+      <a href="https://discord.gg/V5sBXsybCW">
+      <img src="https://i.imgur.com/glICka0.png" width="300">
+      </a>
+  </div> 
+</div>
+
 ## What Is In This Repo
 
 - `skills/` is organized by ecommerce category first, then by source namespace.
