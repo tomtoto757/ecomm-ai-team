@@ -3,7 +3,7 @@
 Curated ecommerce skill files collected into one repository for easier browsing, reuse, and future curation.
 
 <div align="center">
-	<h3>🐳 Community</h3>
+	<h3>🐳 Discussion</h3>
   <div>
       <p>
       This repo is part of my exploration into AI + Ecommerce operations,
