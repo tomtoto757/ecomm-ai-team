@@ -6,16 +6,23 @@ Curated ecommerce skill files collected into one repository for easier browsing,
 	<h3>🐳 Community</h3>
   <div>
       <p>
-      This repo is part of a small community of people exploring 
-      AI + ecommerce automation, workflows, and tools.
+      This repo is part of my exploration into AI + Ecommerce operations,
+      especially around automation workflows like returns, support, tracking,
+      order management, and internal operations.
       </p>
       <p>
-      If you're working on similar things or just interested in this space,
-      feel free to join the discussion.
+      I believe the most useful AI tools in ecommerce are not marketing tools,
+      but operational automation tools that save real time and cost.
       </p>
+      <p>
+      If you're also interested in this area and want to exchange ideas,
+      share workflows, or discuss tools and agents, I am more than happy to connect.
+      </p>
+      <p>
       <a href="https://discord.gg/V5sBXsybCW">
-      <img src="https://i.imgur.com/glICka0.png" width="300">
+      <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord">
       </a>
+      </p>
   </div> 
 </div>
 
